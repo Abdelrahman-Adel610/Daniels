@@ -1,0 +1,480 @@
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+h3
+{
+    font-weight: 800;
+    font-size: 3rem;
+position: relative;
+display: inline-block;
+}
+.fig
+{
+    position: absolute;
+    z-index: -1555;
+    top: 30%; 
+    right: 20%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../Images/dots.png");
+}
+h3::after
+{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 85%; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../Images/dots.png");
+}
+#home
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url("../Images/bg.jpg");
+}
+.homeCap h5
+{
+    font-size: 3.5em;
+}
+.homeCap h2
+{
+    font-size: 4em;
+    font-weight: 100;
+    padding-block :1em; 
+}
+
+.homeCap h2::after
+{
+    content:"I Am|";
+    animation-name: homeAn;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@media screen and (max-width:768px)
+{
+#home
+{
+    font-size: 12px;
+}
+}
+@keyframes homeAn 
+{
+0%
+{
+content:"I|" ;
+}
+2%
+{
+content:"I |" ;
+}
+4%
+{
+content:"I A|" ;
+}
+8%
+{
+content:"I AM|" ;
+}
+10%
+{
+content:"I AM |" ;
+}
+12%
+{
+content:"I AM L|" ;
+}
+14%
+{
+content:"I Am La|" ;
+}
+16%
+{
+content:"I Am Lar|" ;
+}
+18%
+{
+content:"I Am Larr|" ;
+}
+20%
+{
+content:"I Am Larry|" ;
+}
+22%
+{
+content:"I Am Larry |" ;
+}
+24%
+{
+content:"I Am Larry D|" ;
+}
+26%
+{
+content:"I Am Larry Da|" ;
+}
+28%
+{
+content:"I Am Larry Dan|" ;
+}
+30%
+{
+content:"I Am Larry Dani|" ;
+}
+32%
+{
+content:"I Am Larry Danie|" ;
+}
+34%
+{
+content:"I Am Larry Daniel|" ;
+}
+36%
+{
+content:"I Am Larry Daniels|" ;
+}
+38%
+{
+content:"I Am Larry Daniels|" ;
+}
+40%
+{
+content:"I Am Larry Daniel|" ;
+}
+42%
+{
+content:"I Am Larry Danie|" ;
+}
+44%
+{
+content:"I Am Larry Dani|" ;
+}
+46%
+{
+content:"I Am Larry Dan|" ;
+}
+48%
+{
+content:"I Am Larry Da|" ;
+}
+50%
+{
+content:"I Am Larry D|" ;
+}
+52%
+{
+content:"I Am Larry |" ;
+}
+54%
+{
+content:"I Am Larry|" ;
+}
+56%
+{
+content:"I Am Larr|" ;
+}
+58%
+{
+content:"I Am Lar|" ;
+}
+60%
+{
+content:"I Am La|" ;
+}
+62%
+{
+content:"I Am L|" ;
+}
+64%
+{
+content:"I Am |" ;
+}
+66%
+{
+content:"I Am D|" ;
+}
+68%
+{
+content:"I Am De|" ;
+}
+70%
+{
+content:"I Am Dev|" ;
+}
+72%
+{
+content:"I Am Deve|" ;
+}
+74%
+{
+content:"I Am Devel|" ;
+}
+76%
+{
+content:"I Am Develo|" ;
+}
+78%
+{
+content:"I Am Develop|" ;
+}
+80%
+{
+content:"I Am Develope|" ;
+}
+82%
+{
+content:"I Am Developer|" ;
+}
+84%
+{
+content:"I Am Develop|" ;
+}
+86%
+{
+content:"I Am Develo|" ;
+}
+88%
+{
+content:"I Am Devel|" ;
+}
+90%
+{
+content:"I Am Deve|" ;
+}
+92%
+{
+content:"I Am Dev|" ;
+}
+94%
+{
+content:"I Am Dev|" ;
+}
+96%
+{
+content:"I Am De|" ;
+}
+98%
+{
+content:"I Am D|" ;
+}
+100%
+{
+content:"I Am |" ;
+}
+
+
+
+}
+#about
+{
+    margin-block: 3rem;
+}
+.container-80
+{
+    width: 80%;
+    margin: auto;
+}
+.myprog
+{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.progcntrl
+{
+height: 1.5rem;
+margin-block: 2rem;
+font-size: 1rem;
+box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+.b1:hover
+{
+    background-color: white;
+    color: #1c1c1c;
+}
+.b2:hover
+{
+    color: white;
+    background-color: #1c1c1c;
+}
+.btn
+{
+    padding: .7rem 1.5rem;
+    transition: .5s;
+}
+
+@media screen and (max-width:992px) 
+{
+figure{
+    width: 100%;
+}
+ figcaption
+ {
+        width: 100% !important;
+ }
+.about
+ {
+display: flex;
+flex-direction: column;
+ }   
+
+}
+#services i
+{
+    font-size: 1.6rem;
+}
+#services div.col-lg-4:hover  span
+{
+    display: none;
+    background-color: #1c1c1c !important;
+    color: white;
+}
+div.col-lg-4 span
+{
+    transition:.8s;
+}
+#services h3
+{
+    font-size: 3rem;
+}
+#services h6
+{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+ .photos i
+{
+    margin-inline:.1rem ;
+    margin-top:.5rem ;
+}
+.photos .caption
+{
+    transform:translateY(-1000%) ;
+    transition:1s;
+
+}
+.photos .icon
+{
+    transform: translateY(1000%);
+    transition:1s;
+
+}
+.layer:hover  .caption
+{
+transform: translate(0);
+
+}
+.layer:hover  .icon
+{
+transform: translate(0);
+
+}
+.layer
+{
+    transition:.2s;
+}
+.cardd:hover .layer
+{
+opacity: 100 !important;
+}
+.icon:hover
+{
+    background-color: white !important;
+    color: black !important;
+}
+  
+.carousel-indicators [data-bs-target]
+{
+    height: .9rem;
+    width: .9rem;
+    border-radius: 50%;
+    background-color: gray;
+    margin-inline: .5rem;
+
+}
+#clients p
+{
+    font-size: 1rem;
+    font-weight: 500;
+}
+#team .cap
+{
+    background-color:#5B5B5B;
+}
+#team .bot:hover
+{
+    color: black;
+    background-color: white !important;
+}
+#team .bot
+{
+    transition:.4s
+}
+#team .layer
+{
+    transform: scale(.2);
+    transition: 1s;
+}
+.crd:hover .layer
+{
+    opacity: 1 !important;
+    transform: scale(.955) rotateY(360deg) !important;
+}
+.crd:hover .phot
+{
+    transform: scale(1.2) !important;
+}
+.phot
+{
+    transition: 1s;
+}
+#team .col-lg-4:hover .layer
+{
+    opacity: 1 !important;
+    transform: scale(.955) rotateY(360deg) !important;
+}
+#contact .col-lg-4:hover .bot
+{
+    background-color: black !important;
+    color: white !important;
+}
+#contact .bot
+{
+    transition:.4s
+}
+.bg-lightx
+{
+    background-color: #F4F4F4;
+}
+
+#contact .bot2:hover
+{
+color: black !important;
+background-color: white !important;
+}
+#contact .bot2
+{
+    transition:.4s
+}
+input
+{
+    outline: none;
+}
+textarea
+{
+    outline: none;
+}
+.txt
+{
+    color: #748182;
+    font-size: 14px;
+    align-self: center;
+}
+
